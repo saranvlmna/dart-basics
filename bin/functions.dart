@@ -12,6 +12,20 @@ void main() {
   });
 }
 
+// Future< main>() async{
+// await  print(findTwoValueSum(2, 4));
+// await  sumReq(firstNumber: 1, secondNumber: 2);
+// await  sumReqR(firstNumber: 1, secondNumber: 2, thirdValue: 1);
+//  await sumFunction(1, 2, findTwoValueSum);
+//  await sumFuture(1, 2);
+//  await sum();
+
+//   //passfunction with out function
+//  await sumFunction(1, 2, (p0, p1) {
+//     print(p0 + p1);
+//   });
+// }
+
 //number function
 int findTwoValueSum(int num1, int num2) {
   print(num1 + num2);
