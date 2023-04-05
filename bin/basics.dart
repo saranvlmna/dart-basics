@@ -14,8 +14,8 @@ void main() {
   var num1 = int.parse(input1!);
   var num2 = int.parse(input2!);
 
+//string
   print('sum:${num1 + num2}');
-
   String name = 'saranjith';
   String nameWithAddress = "I \"m Saranjith Palakkandy";
   String multiLineString = '''
@@ -26,4 +26,12 @@ p
 ''';
 
   print(name.length);
+
+//if
+  int n1 = 10;
+  if (n1 < 0) {
+    print("number is negative");
+  } else {
+    print("number is positive");
+  }
 }
